@@ -1,0 +1,59 @@
+{
+    "name": "Caio Silva",
+    "job": "Estudante",
+    "github": "CaioSilvaDev",
+    "playlists": {
+        "music": [
+            {
+                "title": "Terno Rei - Dias da Juventude (Ao Vivo na Ópera de Arame)",
+                "url": "https://www.youtube.com/watch?v=oQ1KtLPJqX4",
+                "thumb": "https://img.youtube.com/vi/oQ1KtLPJqX4/maxresdefault.jpg"
+            },
+
+            {
+                "title": "Terno Rei - Brutal (Clipe Oficial)",
+                "url": "https://www.youtube.com/watch?v=POo28Yd2Cj0",
+                "thumb": "https://img.youtube.com/vi/POo28Yd2Cj0/maxresdefault.jpg"
+            },
+
+            {
+                "title": "Coldplay - Fix You (Live In São Paulo)",
+                "url": "https://www.youtube.com/watch?v=AEp08vVYreg",
+                "thumb": "https://img.youtube.com/vi/AEp08vVYreg/maxresdefault.jpg"
+            },
+            {
+                "title": "Pink Floyd - Wish You Were Here",
+                "url": "https://www.youtube.com/watch?v=84Tq-eAJIk4",
+                "thumb": "https://img.youtube.com/vi/84Tq-eAJIk4/sddefault.jpg"
+            },
+            {
+                "title": "Manchester Orchestra - I Know How To Speak",
+                "url": "https://www.youtube.com/watch?v=g0YbQuuz01k",
+                "thumb": "https://img.youtube.com/vi/g0YbQuuz01k/maxresdefault.jpg"
+            },
+            {
+                "title": "Terno Rei - Sorte Ainda",
+                "url": "https://www.youtube.com/watch?v=gj4l2tL9e90",
+                "thumb": "https://img.youtube.com/vi/gj4l2tL9e90/maxresdefault.jpg"
+            }
+        ],
+        "estudos": [
+            {
+                "title": "Curso de Git e Github COMPLETO 2021 [Iniciantes] + Desafios + Muita Prática",
+                "url": "https://www.youtube.com/watch?v=kB5e-gTAl_s",
+                "thumb": "https://img.youtube.com/vi/kB5e-gTAl_s/maxresdefault.jpg"
+            }
+        ]
+    },
+    "favorites-cards": [
+        {
+            "github": "peas"
+        },
+        {
+            "github": "omariosouto"
+        },
+        {
+            "github": "lvizrosario"
+        }
+    ]
+}
