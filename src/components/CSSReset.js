@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
- export const CSSReset = createGlobalStyle`
+export const CSSReset = createGlobalStyle`
    /* Reset */
    * {
      margin: 0;
@@ -19,6 +19,8 @@ import { createGlobalStyle } from "styled-components";
    body {
      display: flex;
      flex: 1;
+     background-color: ${({ theme }) => theme.backgroundBase} ;
+     color: ${({ theme }) => theme.textColorBase} 
    }
    #__next {
      display: flex;

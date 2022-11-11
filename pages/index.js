@@ -2,10 +2,8 @@ import React from "react";
 import config from "../config.json";
 import styled from "styled-components";
 import { images } from "../next-config";
-import { CSSReset } from "../src/components/CSSReset";
 import Menu from "../src/components/Menu";
 import { StyledTimeline } from "../src/components/Timeline";
-
 import { FavoriteCards } from "../src/components/FavoritesCards";
 
 
@@ -14,12 +12,11 @@ function Homepage() {
     const [valorDoFiltro, setValorDoFiltro] = React.useState("");
     return (
         <>
-            <CSSReset />
+
             <div style={{
                 display: "flex",
                 flexDirection: "column",
                 flex: 1,
-                // backgroundColor: "red",
             }}>
                 <Menu valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro} />
                 <Header> </Header>
@@ -34,6 +31,7 @@ function Homepage() {
 export default Homepage
 
 const StyledHeader = styled.div`
+    background-color: ${({theme}) => theme.backgroundLevel1};
     .banner {
         width: 100%;
         height: 230px;
@@ -63,7 +61,6 @@ function Header() {
             </section>
             <section className="user-info">
                 <img className="avatars" src={`https://github.com/${config.github}.png`} />
-                {/* tentar resolver json para foto do gitub o codigo: <img src= {`https://github.com/${config.github}.png`} />*/}
                 <div>
                     <h2>
                         {config.name}

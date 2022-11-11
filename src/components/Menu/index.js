@@ -1,7 +1,8 @@
 import styled from "styled-components";
 import Search from "./Search";
+import StyledSwitch from "./darkModeSwitch";
 
- const StyledMenu = styled.header`
+const StyledMenu = styled.header`
    display: flex;
    flex-direction: row;
    height: 56px;
@@ -25,19 +26,20 @@ import Search from "./Search";
    }
  `;
 
- export default function Menu({valorDoFiltro, setValorDoFiltro}) {
-   return (
-     <StyledMenu>
-       <div>
-         <Logo />
-       </div>
-       <Search valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro}/>
-     </StyledMenu>
-   );
- };
+export default function Menu({ valorDoFiltro, setValorDoFiltro }) {
+  return (
+    <StyledMenu>
+      <div>
+        <Logo />
+      </div>
+      <Search valorDoFiltro={valorDoFiltro} setValorDoFiltro={setValorDoFiltro} />
+      <StyledSwitch />
+    </StyledMenu>
+  );
+};
 
- function Logo() {
-   return (
-     <img src="https://thumbs.files.fm/thumb_show.php?i=4r7budu63&view"/>
-   )
- };
+function Logo() {
+  return (
+    <img src="https://thumbs.files.fm/thumb_show.php?i=4r7budu63&view" />
+  )
+};

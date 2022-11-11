@@ -31,7 +31,7 @@ import styled from "styled-components";
        grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
        grid-auto-flow: column;
        grid-auto-columns: minmax(200px,1fr);
-       overflow-x: scroll;
+       overflow-x: hidden;
        scroll-snap-type: x mandatory;
        a {
          scroll-snap-align: start;
