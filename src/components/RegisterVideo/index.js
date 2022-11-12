@@ -23,7 +23,7 @@ export function RegisterVideo() {
     const formCadastro = useForm({
         initialValues: { titulo: "Terno rei", url: "http://youtube.." }
     });
-    const [formVisivel, setFormVisivel] = React.useState(true);
+    const [formVisivel, setFormVisivel] = React.useState(false);
 
 
     return (
